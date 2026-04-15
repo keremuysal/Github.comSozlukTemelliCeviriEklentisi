@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GitHub Türkçe",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "GitHub arayüzünü yazılım terminolojisine uygun Türkçe sözlük ile çevirir.",
   "permissions": [
     "storage",

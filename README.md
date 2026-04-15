@@ -3,7 +3,7 @@
 GitHub arayüzündeki metinleri yazılım terminolojisine uygun bir Türkçe sözlük ile çeviren Manifest V3 tabanlı Chrome eklentisi.
 
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-2ea44f)](https://developer.chrome.com/docs/extensions/mv3/)
-[![Sürüm](https://img.shields.io/badge/sürüm-1.1.1-0969da)](manifest.json)
+[![Sürüm](https://img.shields.io/badge/sürüm-1.1.2-0969da)](manifest.json)
 [![Alan Adı](https://img.shields.io/badge/domain-github.com-24292f)](https://github.com)
 [![Çeviriler](https://img.shields.io/badge/çeviriler-3600%2B-orange)](dictionary.json)
 [![Kelimeler](https://img.shields.io/badge/kelimeler-200k%2B-blue)](dictionary.json)
@@ -55,6 +55,16 @@ GitHub arayüzündeki metinleri yazılım terminolojisine uygun bir Türkçe sö
 `- icons/
 ```
 
+## Ekran Görüntüleri
+
+### Repo Ana Sayfası
+
+![Repo ana sayfası görünümü](icons/anarepo.jpg)
+
+### Sorunlar Sayfası
+
+![Sorunlar sayfası görünümü](icons/sorunlar.jpg)
+
 ## Teknik Akış
 
 1. [content.js](content.js) açılır ve [dictionary.json](dictionary.json) yüklenir.
@@ -93,7 +103,7 @@ Notlar:
 
 ## Sürüm
 
-- Güncel sürüm: 1.1.1
+- Güncel sürüm: 1.1.2
 - Değişiklik geçmişi: [UPDATES.md](UPDATES.md)
 
 ## İletişim ve Profil
