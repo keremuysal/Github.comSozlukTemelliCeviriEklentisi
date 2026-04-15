@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Türkçe</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="logo">TR</div>
+    <div class="header-text">
+      <h1>GitHub Türkçe</h1>
+      <p>3600+ çeviri • 200K+ kelime</p>
+    </div>
+  </div>
+
+  <!-- Status -->
+  <div class="status-section">
+    <div class="status-row">
+      <span class="status-label">Durum</span>
+      <label class="toggle-switch">
+        <input type="checkbox" id="toggleStatus" checked />
+        <span class="toggle-slider"></span>
+      </label>
+    </div>
+    <div class="status-text-row" id="statusTextRow">
+      <div class="status-badge">
+        <div class="status-dot"></div>
+        <span class="status-text">Aktif</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats-section">
+    <div class="stat-card">
+      <div class="stat-value" id="dictSize">—</div>
+      <div class="stat-label">Sözlük girişi</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value">MV3</div>
+      <div class="stat-label">Manifest sürümü</div>
+    </div>
+  </div>
+
+  <!-- Features -->
+  <div class="features-section">
+    <div class="section-title">Özellikler</div>
+    <div class="feature-list">
+      <div class="feature-item">
+        <span class="feature-icon">🌳</span>
+        <span class="feature-text"><strong>TreeWalker</strong> ile güvenli metin tarama — event listener'lar korunur</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🔒</span>
+        <span class="feature-text"><strong>&lt;code&gt;, &lt;pre&gt;</strong> blokları hiç dokunulmaz</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">👁</span>
+        <span class="feature-text"><strong>MutationObserver</strong> ile dinamik içerik desteği</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">⚡</span>
+        <span class="feature-text">Debounce ile <strong>yüksek performans</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <span class="version">v1.1.1</span>
+    <span class="domain-pill">github.com</span>
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
